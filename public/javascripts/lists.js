@@ -205,14 +205,9 @@ document.addEventListener('DOMContentLoaded', async (event) => {
 
                         addListItem(newListTasks.taskList)
                     })
-
-
-
-
                 } catch (err) {
-                    console.log('There was an error fetching data')
-                }
 
+                }
             });
 
         }
@@ -770,16 +765,5 @@ document.addEventListener('DOMContentLoaded', async (event) => {
         })
     }
 
-    
+
 });
-
-
-
-
-
-
-
-
-
-
-
